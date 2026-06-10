@@ -1,5 +1,5 @@
 Title: 
-"Data form is accepting invalid data in the following fields: name, last name and ZIP code"
+"Data form is accepting invalid data in the following fields: name, last name and ZIP code."
 
 Preconditions:
 Add an object to the cart, and then go to the "Checkout your information" page where the data form will appear. 
