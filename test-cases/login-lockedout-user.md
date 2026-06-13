@@ -8,6 +8,7 @@ Steps:
 2. Add your invalid username: locked_out_user.
 3. Add your invalid password: secret_sauce.
 4. Click the "Login" green button that's below your login information.
-5. Expected result: System prevents user from logging in. System shows error message: "Sorry, this user has been locked out." on site: "https://www.saucedemo.com/".
+
+Expected result: System prevents user from logging in. System shows error message: "Sorry, this user has been locked out." on site: "https://www.saucedemo.com/".
 
 Status: Pass.
