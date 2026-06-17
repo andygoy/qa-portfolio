@@ -1,1 +1,11 @@
+Title: "Get Pokémon data for a non-existent Pokémon".
 
+Preconditions: None (public API, no auth required)
+
+Steps:
+1. Send a GET request to: https://pokeapi.co/api/v2/pokemon/pikachu123
+
+Expected result:
+1. Status code: 404
+2. Response body contains: 
+Not Found
