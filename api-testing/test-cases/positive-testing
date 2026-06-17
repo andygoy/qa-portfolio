@@ -1,1 +1,14 @@
+Title: "Get Pokémon data for an existing Pokémon (Pikachu)".
 
+Preconditions: None (public API, no auth required)
+
+Steps:
+1. Send a GET request to: https://pokeapi.co/api/v2/pokemon/pikachu
+
+Expected result:
+1. Status code: 200
+2. Response body contains: 
+name = "pikachu"
+abilities = "static", "lightning-rod"
+height = 4
+id = 25
