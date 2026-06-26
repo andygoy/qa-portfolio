@@ -12,3 +12,23 @@ name = "pikachu"
 abilities = "static", "lightning-rod"
 height = 4
 id = 25
+
+## Postman Test Scripts
+
+\`\`\`javascript
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+pm.test("Pokemon name is pikachu", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.name).to.eql("pikachu");
+});
+
+pm.test("Pikachu's ability is static", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.abilities[0].ability.name).to.eql("static");
+});
+\`\`\`
+
+**Result:** All assertions passed ✅
