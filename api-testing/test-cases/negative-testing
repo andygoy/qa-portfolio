@@ -9,3 +9,13 @@ Expected result:
 1. Status code: 404
 2. Response body contains: 
 Not Found
+
+## Postman Test Scripts
+
+pm.test("Status code is 404", function () {
+    pm.response.to.have.status(404);
+});
+
+pm.test("Response body says Not Found", function () {
+    pm.expect(pm.response.text()).to.eql("Not Found");
+});
