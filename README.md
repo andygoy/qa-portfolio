@@ -18,6 +18,12 @@ Test cases covering login flows and core functionality of SauceDemo.
 ### `api-testing/`
 Test cases for the [PokeAPI](https://pokeapi.co/), covering positive and negative scenarios.
 
+### `automation/`
+End-to-end test automation using Playwright (JavaScript). Covers login flows and full checkout process on SauceDemo.
+
+- `tests/login.spec.js` — Login tests: valid user, locked-out user
+- `tests/checkout.spec.js` — Full checkout flow automation
+
 ## 🚧 Status
 This portfolio is actively being updated as I continue learning. Next steps: Postman Collections, more API coverage, and test automation.
 
