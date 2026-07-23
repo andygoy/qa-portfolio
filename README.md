@@ -1,11 +1,11 @@
 # QA Portfolio
 
-This repository documents my hands-on QA learning journey, including manual testing, API testing, and (soon) test automation. Each section reflects real practice on public applications, following industry-standard documentation formats.
+This repository documents my hands-on QA learning journey, including manual testing, API testing, and test automation. Each section reflects real practice on public applications, following industry-standard documentation formats.
 
 ## 🧰 Skills demonstrated
 - Manual testing (exploratory testing, test case design, bug reporting)
 - API testing (Postman, status codes, request/response validation)
-- (Coming soon) Test automation with Playwright
+- Test automation with Playwright (JavaScript)
 
 ## 📁 Structure
 
@@ -25,7 +25,7 @@ End-to-end test automation using Playwright (JavaScript). Covers login flows and
 - `tests/checkout.spec.js` — Full checkout flow automation
 
 ## 🚧 Status
-This portfolio is actively being updated as I continue learning. Next steps: Postman Collections, more API coverage, and test automation.
+This portfolio is actively being updated as I continue learning. Next steps: SQL basics, mobile testing.
 
 ## 🔗 Contact
 Andrea Gómez — https://www.linkedin.com/in/andreagomezy/
