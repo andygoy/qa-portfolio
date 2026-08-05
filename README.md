@@ -6,6 +6,8 @@ This repository documents my hands-on QA learning journey, including manual test
 - Manual testing (exploratory testing, test case design, bug reporting)
 - API testing (Postman, status codes, request/response validation)
 - Test automation with Playwright (JavaScript)
+- SQL basics (SELECT, WHERE, JOIN, COUNT)
+- Mobile testing with BrowserStack
 
 ## 📁 Structure
 
@@ -25,7 +27,7 @@ End-to-end test automation using Playwright (JavaScript). Covers login flows and
 - `tests/checkout.spec.js` — Full checkout flow automation
 
 ## 🚧 Status
-This portfolio is actively being updated as I continue learning. Next steps: SQL basics, mobile testing.
+This portfolio is actively being updated as I continue learning. Next steps: Advanced automation with Page Object Model, CI/CD with Github Actions.
 
 ## 🔗 Contact
 Andrea Gómez — https://www.linkedin.com/in/andreagomezy/
