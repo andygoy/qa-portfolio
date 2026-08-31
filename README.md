@@ -1,33 +1,68 @@
-# QA Portfolio
+Andrea Gómez
 
-This repository documents my hands-on QA learning journey, including manual testing, API testing, and test automation. Each section reflects real practice on public applications, following industry-standard documentation formats.
+QA Engineer in transition | Manual & Automation Testing | Detail-oriented | Building real-world skills through hands-on practice
 
-## 🧰 Skills demonstrated
-- Manual testing (exploratory testing, test case design, bug reporting)
-- API testing (Postman, status codes, request/response validation)
-- Test automation with Playwright (JavaScript)
-- SQL basics (SELECT, WHERE, JOIN, COUNT)
-- Mobile testing with BrowserStack
+👩‍💻 About Me
 
-## 📁 Structure
+Psychology graduate with 8+ years in tech, currently transitioning into QA Engineering. My background in human behavior combined with hands-on experience in AI and software gives me a unique perspective on how users interact with products — and how to break them.
 
-### `bug-reports/`
-Bug reports found during manual exploratory testing of [SauceDemo](https://www.saucedemo.com/).
+I'm currently studying Software Engineering and building real-world QA skills through hands-on practice, covering manual testing, API testing, and test automation. I'm passionate about quality, detail, and building things that actually work.
 
-### `test-cases/`
-Test cases covering login flows and core functionality of SauceDemo.
+🧰 Tech Stack
 
-### `api-testing/`
-Test cases for the [PokeAPI](https://pokeapi.co/), covering positive and negative scenarios.
+Testing
 
-### `automation/`
-End-to-end test automation using Playwright (JavaScript). Covers login flows and full checkout process on SauceDemo.
+Manual Testing | Exploratory Testing | Cross-browser Testing
+API Testing — Postman
+Test Automation — Playwright (JavaScript)
+Mobile Testing — BrowserStack
 
-- `tests/login.spec.js` — Login tests: valid user, locked-out user
-- `tests/checkout.spec.js` — Full checkout flow automation
+Languages & Tools
 
-## 🚧 Status
-This portfolio is actively being updated as I continue learning. Next steps: Advanced automation with Page Object Model, CI/CD with Github Actions.
+JavaScript (basic)
+SQL (basic)
+Git & GitHub
+Jira
 
-## 🔗 Contact
-Andrea Gómez — https://www.linkedin.com/in/andreagomezy/
+AI & Automation
+
+Generative AI (prompt design, conversational flows)
+AI Chat QA (healthcare industry)
+📁 Projects
+Project	Description	Tools
+🐛 Bug Reports	Manual exploratory testing on SauceDemo	Manual Testing
+📋 Test Cases	Login and checkout flow test cases	Manual Testing
+🔌 API Testing	Positive and negative testing on PokeAPI	Postman
+🤖 Automation	E2E test automation for login and checkout	Playwright
+🚀 How to Run the Automation Tests
+
+Prerequisites
+
+Node.js installed
+Clone this repository
+
+Installation
+
+bash
+cd automation
+npm install
+npx playwright install
+
+Run all tests
+
+bash
+npx playwright test
+
+Run a specific file
+
+bash
+npx playwright test tests/login.spec.js
+
+Run with browser visible
+
+bash
+npx playwright test --headed
+📬 Contact
+💼 LinkedIn
+🐙 GitHub
+📧 a.gomezy26@gmail.com
