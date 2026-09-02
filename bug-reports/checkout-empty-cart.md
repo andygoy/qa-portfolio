@@ -1,21 +1,24 @@
-Title: 
-"Checkout can be completed with an empty cart."
+**Title:** Checkout can be completed with an empty cart
 
-Preconditions: 
-Do not add any objects to the cart.
+**Environment:**
+- Browser: Google Chrome 151.0.7922.138
+- OS: macOS Tahoe 26.3.1
+- URL: https://www.saucedemo.com/
 
-Steps to reproduce:
-1. With an empty cart, click on the cart icon that's located at the top right of the site.
-2. Click on the green button that says "Checkout".
-3. Fill out the required data (name, last name, ZIP code).
+**Preconditions:** Do not add any objects to the cart.
+
+**Steps to reproduce:**
+1. With an empty cart, click on the cart icon located at the top right of the site.
+2. Click on the green "Checkout" button.
+3. Fill out the required data (First Name, Last Name, ZIP Code).
 4. Click on "Continue".
 5. Click on "Finish".
 
-Actual result: 
-Website allows to place an order.
+**Actual result:** The system allows placing an order with an empty cart.
 
-Expected result: 
-When clicking on "Checkout" with an empty cart, the system should show an error message saying that there are no products in the cart and not move forward. 
- 
-Severity:
-Critical
+**Expected result:** When clicking "Checkout" with an empty cart, the system should display an error message indicating there are no products in the cart and prevent moving forward.
+
+**Severity:** Critical
+**Priority:** High
+
+**Evidence:** [Add screenshot here]
