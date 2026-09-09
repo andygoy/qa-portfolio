@@ -20,5 +20,3 @@
 
 **Severity:** Critical
 **Priority:** High
-
-**Evidence:** [Add screenshot here]
